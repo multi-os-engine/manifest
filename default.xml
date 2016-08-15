@@ -77,6 +77,9 @@
 	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea" remote="multi-os-engine" revision="master" />
 	<project name="moe-core" path="moe/moe-core" remote="multi-os-engine" revision="master"/>
 	<project name="moe-tests" path="moe/test" remote="multi-os-engine" revision="master"/>
+	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" remote="multi-os-engine" revision="master"/>
+	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" remote="multi-os-engine" revision="master"/>
+	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" remote="multi-os-engine" revision="master"/>
 
 	<!-- Samples /-->	
 	<project name="moe-samples-java" path="moe/samples-java" remote="multi-os-engine" revision="master"/>
