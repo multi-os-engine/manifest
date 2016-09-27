@@ -75,8 +75,8 @@
 	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote" remote="multi-os-engine" revision="master" />
 	<project name="moe-tools-common" path="moe/tools/moe.tools.common" remote="multi-os-engine" revision="master"/>
 	<!-- <project name="moe-executable-builder" path="moe/tools/moe.executable.builder" remote="multi-os-engine" revision="master"/> -->
-	<project name="moe-ui-transformer" path="moe/tools/moe.ui.transformer" remote="multi-os-engine" revision="master"/>
-	<project name="moe-ui-designer" path="moe/tools/moe.ui.designer" remote="multi-os-engine" revision="master"/>
+	<!-- <project name="moe-ui-transformer" path="moe/tools/moe.ui.transformer" remote="multi-os-engine" revision="master"/> -->
+	<!-- <project name="moe-ui-designer" path="moe/tools/moe.ui.designer" remote="multi-os-engine" revision="master"/> -->
 	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea" remote="multi-os-engine" revision="master" />
 	<project name="moe-core" path="moe/moe-core" remote="multi-os-engine" revision="master"/>
 	<project name="moe-tests" path="moe/test" remote="multi-os-engine" revision="master"/>
