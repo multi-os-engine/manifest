@@ -2,12 +2,12 @@
 <manifest>
     <remote fetch="." name="multi-os-engine" />
 
-    <default remote="multi-os-engine" revision="master" />
+    <default remote="multi-os-engine" revision="migeran" />
 
-	<!-- 
-		Andoid Open Source projects 
+	<!--
+		Andoid Open Source projects
 	/-->
-	<project name="art" path="aosp/art" remote="multi-os-engine" revision="moe"/>
+	<project name="art" path="aosp/art" remote="multi-os-engine" revision="migeran"/>
 	<project name="platform_bionic" path="aosp/bionic" remote="multi-os-engine" revision="moe" />
 	<project name="platform_external_apache-http" path="aosp/external/apache-http" remote="multi-os-engine" revision="moe"/>
 	<project name="apache-harmony" path="aosp/external/apache-harmony" remote="multi-os-engine" revision="moe" />
@@ -27,8 +27,8 @@
 	<project name="libnativehelper" path="aosp/libnativehelper" remote="multi-os-engine" revision="moe"/>
 	<project name="platform_system_core" path="aosp/system/core" remote="multi-os-engine" revision="moe"/>
 
-	<!-- 
-		Third party components 
+	<!--
+		Third party components
 	/-->
 	<!-- libimobiledevice /-->
 	<project name="libimobiledevice" path="external/libimobiledevice/libimobiledevice" remote="multi-os-engine" revision="moe" />
@@ -38,59 +38,59 @@
 	<project name="openssl" path="external/libimobiledevice/openssl" remote="multi-os-engine" revision="OpenSSL_1_0_2-stable"/>
 
 	<!-- libffi /-->
-	<project name="libffi" path="external/libffi" remote="multi-os-engine" revision="moe"/>
+	<project name="libffi" path="external/libffi" remote="multi-os-engine" revision="migeran"/>
 
 	<!-- llvm /-->
-	<project name="llvm" path="external/llvm" remote="multi-os-engine" revision="moe" />
-	<project name="clang" path="external/llvm/tools/clang" remote="multi-os-engine" revision="moe"/>
-	<project name="clang-tools-extra" path="external/llvm/tools/clang/tools/extra" remote="multi-os-engine" revision="moe"/>
+	<project name="llvm" path="external/llvm" remote="multi-os-engine" revision="migeran" />
+	<project name="clang" path="external/llvm/tools/clang" remote="multi-os-engine" revision="migeran"/>
+	<project name="clang-tools-extra" path="external/llvm/tools/clang/tools/extra" remote="multi-os-engine" revision="migeran"/>
 
 	<!-- Retrolambda /-->
-	<project name="retrolambda" path="external/retrolambda" remote="multi-os-engine" revision="moe"/>
+	<project name="retrolambda" path="external/retrolambda" remote="multi-os-engine" revision="migeran"/>
 
 
-	<!-- 
-		Multi-OS Engine components 
+	<!--
+		Multi-OS Engine components
 	/-->
 	<project name="moe-prebuilts" path="prebuilts" remote="multi-os-engine" revision="master"/>
 
 	<!-- Nat/J /-->
-	<project name="moe-natj" path="moe/natj/natj" remote="multi-os-engine" revision="master"/>
-	<project name="moe-natjgen" path="moe/tools/moe.generator.natjgen" remote="multi-os-engine" revision="master" />
+	<project name="moe-natj" path="moe/natj/natj" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-natjgen" path="moe/tools/moe.generator.natjgen" remote="multi-os-engine" revision="migeran" />
 	<project name="moe-cinder-natj-binding" path="moe/natj/bindigs/third_party/cinder" remote="multi-os-engine" revision="master" />
 	<project name="moe-realsense-natj-binding" path="moe/natj/bindigs/third_party/realsense" remote="multi-os-engine" revision="master" />
 	<project name="moe-tinyb-natj-binding" path="moe/natj/bindigs/third_party/tinyb" remote="multi-os-engine" revision="master" />
 
 	<!-- Tools /-->
-	<project name="moe-binding-clang" path="moe/tools/moe.binding.clang" remote="multi-os-engine" revision="master"/>
-	<project name="moe-binding-libimobiledevice" path="moe/tools/moe.binding.libimobiledevice" remote="multi-os-engine" revision="master"/>
+	<project name="moe-binding-clang" path="moe/tools/moe.binding.clang" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-binding-libimobiledevice" path="moe/tools/moe.binding.libimobiledevice" remote="multi-os-engine" revision="migeran"/>
 	<!-- <project name="moe-build-gradle" path="moe/tools/moe.build.gradle" remote="multi-os-engine" revision="master"/> -->
-	<project name="moe-document-pbxproj" path="moe/tools/moe.document.pbxproj" remote="multi-os-engine" revision="master"/>
-	<project name="moe-document-xib" path="moe/tools/moe.document.xib" remote="multi-os-engine" revision="master" />
-	<project name="moe-generator-project" path="moe/tools/moe.generator.project" remote="multi-os-engine" revision="master" />
-	<project name="moe-ios-device-launcher" path="moe/tools/moe.ios.device.launcher" remote="multi-os-engine" revision="master"/>
-	<project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" remote="multi-os-engine" revision="master"/>
+	<project name="moe-document-pbxproj" path="moe/tools/moe.document.pbxproj" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-document-xib" path="moe/tools/moe.document.xib" remote="multi-os-engine" revision="migeran" />
+	<project name="moe-generator-project" path="moe/tools/moe.generator.project" remote="multi-os-engine" revision="migeran" />
+	<project name="moe-ios-device-launcher" path="moe/tools/moe.ios.device.launcher" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" remote="multi-os-engine" revision="migeran"/>
 	<!-- <project name="moe-mac-core" path="moe/tools/moe.mac.core" remote="multi-os-engine" revision="master" /> -->
-	<project name="moe-tools_master" path="moe/tools/master" remote="multi-os-engine" revision="master" />
-	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote" remote="multi-os-engine" revision="master" />
-	<project name="moe-tools-common" path="moe/tools/moe.tools.common" remote="multi-os-engine" revision="master"/>
+	<project name="moe-tools_master" path="moe/tools/master" remote="multi-os-engine" revision="migeran" />
+	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote" remote="multi-os-engine" revision="migeran" />
+	<project name="moe-tools-common" path="moe/tools/moe.tools.common" remote="multi-os-engine" revision="migeran"/>
 	<!-- <project name="moe-executable-builder" path="moe/tools/moe.executable.builder" remote="multi-os-engine" revision="master"/> -->
 	<!-- <project name="moe-ui-transformer" path="moe/tools/moe.ui.transformer" remote="multi-os-engine" revision="master"/> -->
 	<!-- <project name="moe-ui-designer" path="moe/tools/moe.ui.designer" remote="multi-os-engine" revision="master"/> -->
-	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea" remote="multi-os-engine" revision="master" />
-	<project name="moe-core" path="moe/moe-core" remote="multi-os-engine" revision="master"/>
+	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea" remote="multi-os-engine" revision="migeran" />
+	<project name="moe-core" path="moe/moe-core" remote="multi-os-engine" revision="migeran"/>
 	<project name="moe-tests" path="moe/test" remote="multi-os-engine" revision="master"/>
-	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" remote="multi-os-engine" revision="master"/>
-	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" remote="multi-os-engine" revision="master"/>
-	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" remote="multi-os-engine" revision="master"/>
-	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" remote="multi-os-engine" revision="master"/>
-	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" remote="multi-os-engine" revision="master"/>
+	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" remote="multi-os-engine" revision="migeran"/>
 
-	<!-- Samples /-->	
-	<project name="moe-samples-java" path="moe/samples-java" remote="multi-os-engine" revision="master"/>
-	<project name="moe-samples-kotlin" path="moe/samples-kotlin" remote="multi-os-engine" revision="master"/>
+	<!-- Samples /-->
+	<project name="moe-samples-java" path="moe/samples-java" remote="multi-os-engine" revision="migeran"/>
+	<project name="moe-samples-kotlin" path="moe/samples-kotlin" remote="multi-os-engine" revision="migeran"/>
 
 	<!-- Documentation /-->
-	<project name="doc" path="moe/doc" remote="multi-os-engine" revision="master"/>	
+	<project name="doc" path="moe/doc" remote="multi-os-engine" revision="migeran"/>
 
 </manifest>
