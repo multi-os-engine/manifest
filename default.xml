@@ -26,6 +26,7 @@
 	<project name="libcore" path="aosp/libcore" remote="multi-os-engine" revision="moe"/>
 	<project name="libnativehelper" path="aosp/libnativehelper" remote="multi-os-engine" revision="moe"/>
 	<project name="platform_system_core" path="aosp/system/core" remote="multi-os-engine" revision="moe"/>
+	<project name="ca-certificates" path="aosp/system/ca-certificates" remote="multi-os-engine" revision="moe"/>
 
 	<!--
 		Third party components
