@@ -81,6 +81,7 @@
 	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea" remote="multi-os-engine" revision="migeran" />
 	<project name="moe-core" path="moe/moe-core" remote="multi-os-engine" revision="migeran"/>
 	<project name="moe-tests" path="moe/test" remote="multi-os-engine" revision="master"/>
+	<project name="moe-plugin-common" path="moe/tools/moe.plugin.common" remote="multi-os-engine" revision="migeran"/>
 	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" remote="multi-os-engine" revision="migeran"/>
 	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" remote="multi-os-engine" revision="migeran"/>
 	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" remote="multi-os-engine" revision="migeran"/>
