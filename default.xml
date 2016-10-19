@@ -53,7 +53,7 @@
 	<!--
 		Multi-OS Engine components
 	/-->
-	<project name="moe-prebuilts" path="prebuilts" remote="multi-os-engine" revision="master"/>
+	<project name="moe-prebuilts" path="prebuilts" remote="multi-os-engine" revision="migeran"/>
 
 	<!-- Nat/J /-->
 	<project name="moe-natj" path="moe/natj/natj" remote="multi-os-engine" revision="migeran"/>
