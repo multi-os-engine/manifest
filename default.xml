@@ -23,7 +23,7 @@
 	<project name="platform_external_zlib" path="aosp/external/zlib" remote="multi-os-engine" revision="moe"/>
 	<project name="javasqlite" path="aosp/external/javasqlite" remote="multi-os-engine" revision="moe"/>
 	<project name="frameworks_base_cut" path="aosp/frameworks/base" remote="multi-os-engine" revision="moe"/>
-	<project name="libcore" path="aosp/libcore" remote="multi-os-engine" revision="moe"/>
+	<project name="libcore" path="aosp/libcore" remote="multi-os-engine" revision="migeran"/>
 	<project name="libnativehelper" path="aosp/libnativehelper" remote="multi-os-engine" revision="moe"/>
 	<project name="platform_system_core" path="aosp/system/core" remote="multi-os-engine" revision="moe"/>
 	<project name="ca-certificates" path="aosp/system/ca-certificates" remote="multi-os-engine" revision="moe"/>
