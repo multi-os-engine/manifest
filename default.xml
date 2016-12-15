@@ -4,8 +4,8 @@
 
     <default remote="multi-os-engine" revision="master" />
 
-	<!-- 
-		Andoid Open Source projects 
+	<!--
+		Andoid Open Source projects
 	/-->
 	<project name="art" path="aosp/art" remote="multi-os-engine" revision="moe"/>
 	<project name="platform_bionic" path="aosp/bionic" remote="multi-os-engine" revision="moe" />
@@ -28,8 +28,8 @@
 	<project name="platform_system_core" path="aosp/system/core" remote="multi-os-engine" revision="moe"/>
 	<project name="ca-certificates" path="aosp/system/ca-certificates" remote="multi-os-engine" revision="moe"/>
 
-	<!-- 
-		Third party components 
+	<!--
+		Third party components
 	/-->
 	<!-- libimobiledevice /-->
 	<project name="libimobiledevice" path="external/libimobiledevice/libimobiledevice" remote="multi-os-engine" revision="moe" />
@@ -50,8 +50,8 @@
 	<project name="retrolambda" path="external/retrolambda" remote="multi-os-engine" revision="moe"/>
 
 
-	<!-- 
-		Multi-OS Engine components 
+	<!--
+		Multi-OS Engine components
 	/-->
 	<project name="moe-prebuilts" path="prebuilts" remote="multi-os-engine" revision="master"/>
 
@@ -81,6 +81,7 @@
 	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea" remote="multi-os-engine" revision="master" />
 	<project name="moe-core" path="moe/moe-core" remote="multi-os-engine" revision="master"/>
 	<project name="moe-tests" path="moe/test" remote="multi-os-engine" revision="master"/>
+	<project name="moe-plugin-common" path="moe/tools/moe.plugin.common" remote="multi-os-engine" revision="master"/>
 	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" remote="multi-os-engine" revision="master"/>
 	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" remote="multi-os-engine" revision="master"/>
 	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" remote="multi-os-engine" revision="master"/>
@@ -88,11 +89,11 @@
 	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" remote="multi-os-engine" revision="master"/>
 	<project name="moe_tools_scripts" path="moe/tools/scripts" remote="multi-os-engine" revision="master"/>
 
-	<!-- Samples /-->	
+	<!-- Samples /-->
 	<project name="moe-samples-java" path="moe/samples-java" remote="multi-os-engine" revision="master"/>
 	<project name="moe-samples-kotlin" path="moe/samples-kotlin" remote="multi-os-engine" revision="master"/>
 
 	<!-- Documentation /-->
-	<project name="doc" path="moe/doc" remote="multi-os-engine" revision="master"/>	
+	<project name="doc" path="moe/doc" remote="multi-os-engine" revision="master"/>
 
 </manifest>
