@@ -35,7 +35,6 @@
 	<project name="libimobiledevice" path="external/libimobiledevice/libimobiledevice" remote="multi-os-engine" />
 	<project name="libplist" path="external/libimobiledevice/libplist" remote="multi-os-engine"/>
 	<project name="libusbmuxd" path="external/libimobiledevice/libusbmuxd" remote="multi-os-engine"/>
-	<project name="libxml2" path="external/libimobiledevice/libxml2" remote="multi-os-engine"/>
 	<project name="openssl" path="external/libimobiledevice/openssl" remote="multi-os-engine" revision="OpenSSL_1_0_2-stable"/>
 
 	<!-- libffi /-->
