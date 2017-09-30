@@ -2,98 +2,98 @@
 <manifest>
     <remote fetch="." name="multi-os-engine" />
 
-    <default remote="multi-os-engine" revision="master" />
+    <default remote="multi-os-engine" revision="moe-master" />
 
 	<!--
 		Andoid Open Source projects
 	/-->
-	<project name="art" path="aosp/art" remote="multi-os-engine" revision="moe"/>
-	<project name="platform_bionic" path="aosp/bionic" remote="multi-os-engine" revision="moe" />
-	<project name="platform_external_apache-http" path="aosp/external/apache-http" remote="multi-os-engine" revision="moe"/>
-	<project name="apache-harmony" path="aosp/external/apache-harmony" remote="multi-os-engine" revision="moe" />
-	<project name="bouncycastle" path="aosp/external/bouncycastle" remote="multi-os-engine" revision="moe"/>
-	<project name="conscrypt" path="aosp/external/conscrypt" remote="multi-os-engine" revision="moe"/>
-	<project name="platform_external_expat" path="aosp/external/expat" remote="multi-os-engine" revision="moe"/>
-	<project name="platform_external_fdlibm" path="aosp/external/fdlibm" remote="multi-os-engine" revision="moe"/>
-	<project name="gtest" path="aosp/external/gtest" remote="multi-os-engine" revision="moe"/>
-	<project name="icu" path="aosp/external/icu" remote="multi-os-engine" revision="moe"/>
-	<project name="okhttp" path="aosp/external/okhttp" remote="multi-os-engine" revision="moe"/>
-	<project name="platform_external_openssl" path="aosp/external/openssl" remote="multi-os-engine" revision="moe"/>
-	<project name="vixl" path="aosp/external/vixl" remote="multi-os-engine" revision="moe"/>
-	<project name="platform_external_zlib" path="aosp/external/zlib" remote="multi-os-engine" revision="moe"/>
-	<project name="javasqlite" path="aosp/external/javasqlite" remote="multi-os-engine" revision="moe"/>
-	<project name="frameworks_base_cut" path="aosp/frameworks/base" remote="multi-os-engine" revision="moe"/>
-	<project name="libcore" path="aosp/libcore" remote="multi-os-engine" revision="moe"/>
-	<project name="libnativehelper" path="aosp/libnativehelper" remote="multi-os-engine" revision="moe"/>
-	<project name="platform_system_core" path="aosp/system/core" remote="multi-os-engine" revision="moe"/>
-	<project name="ca-certificates" path="aosp/system/ca-certificates" remote="multi-os-engine" revision="moe"/>
+	<project name="art" path="aosp/art" />
+	<project name="platform_bionic" path="aosp/bionic" />
+	<project name="platform_external_apache-http" path="aosp/external/apache-http" />
+	<project name="apache-harmony" path="aosp/external/apache-harmony"  />
+	<project name="bouncycastle" path="aosp/external/bouncycastle" />
+	<project name="conscrypt" path="aosp/external/conscrypt" />
+	<project name="platform_external_expat" path="aosp/external/expat" />
+	<project name="platform_external_fdlibm" path="aosp/external/fdlibm" />
+	<project name="gtest" path="aosp/external/gtest" />
+	<project name="icu" path="aosp/external/icu" />
+	<project name="okhttp" path="aosp/external/okhttp" />
+	<project name="platform_external_openssl" path="aosp/external/openssl" />
+	<project name="vixl" path="aosp/external/vixl" />
+	<project name="platform_external_zlib" path="aosp/external/zlib" />
+	<project name="javasqlite" path="aosp/external/javasqlite" />
+	<project name="frameworks_base_cut" path="aosp/frameworks/base" />
+	<project name="libcore" path="aosp/libcore" />
+	<project name="libnativehelper" path="aosp/libnativehelper" />
+	<project name="platform_system_core" path="aosp/system/core" />
+	<project name="ca-certificates" path="aosp/system/ca-certificates" />
 
 	<!--
 		Third party components
 	/-->
 	<!-- libimobiledevice /-->
-	<project name="libimobiledevice" path="external/libimobiledevice/libimobiledevice" remote="multi-os-engine" revision="moe" />
-	<project name="libplist" path="external/libimobiledevice/libplist" remote="multi-os-engine" revision="moe"/>
-	<project name="libusbmuxd" path="external/libimobiledevice/libusbmuxd" remote="multi-os-engine" revision="moe"/>
-	<project name="libxml2" path="external/libimobiledevice/libxml2" remote="multi-os-engine" revision="moe"/>
-	<project name="openssl" path="external/libimobiledevice/openssl" remote="multi-os-engine" revision="OpenSSL_1_0_2-stable"/>
+	<project name="libimobiledevice" path="external/libimobiledevice/libimobiledevice"  />
+	<project name="libplist" path="external/libimobiledevice/libplist" />
+	<project name="libusbmuxd" path="external/libimobiledevice/libusbmuxd" />
+	<project name="libxml2" path="external/libimobiledevice/libxml2" />
+	<project name="openssl" path="external/libimobiledevice/openssl" />
 
 	<!-- libffi /-->
-	<project name="libffi" path="external/libffi" remote="multi-os-engine" revision="moe"/>
+	<project name="libffi" path="external/libffi" />
 
 	<!-- llvm /-->
-	<project name="llvm" path="external/llvm" remote="multi-os-engine" revision="moe" />
-	<project name="clang" path="external/llvm/tools/clang" remote="multi-os-engine" revision="moe"/>
-	<project name="clang-tools-extra" path="external/llvm/tools/clang/tools/extra" remote="multi-os-engine" revision="moe"/>
+	<project name="llvm" path="external/llvm"  />
+	<project name="clang" path="external/llvm/tools/clang" />
+	<project name="clang-tools-extra" path="external/llvm/tools/clang/tools/extra" />
 
 	<!-- Retrolambda /-->
-	<project name="retrolambda" path="external/retrolambda" remote="multi-os-engine" revision="moe"/>
+	<project name="retrolambda" path="external/retrolambda" />
 
 
 	<!--
 		Multi-OS Engine components
 	/-->
-	<project name="moe-prebuilts" path="prebuilts" remote="multi-os-engine" revision="master"/>
+	<project name="moe-prebuilts" path="prebuilts" />
 
 	<!-- Nat/J /-->
-	<project name="moe-natj" path="moe/natj/natj" remote="multi-os-engine" revision="master"/>
-	<project name="moe-natjgen" path="moe/tools/moe.generator.natjgen" remote="multi-os-engine" revision="master" />
-	<project name="moe-cinder-natj-binding" path="moe/natj/bindigs/third_party/cinder" remote="multi-os-engine" revision="master" />
-	<project name="moe-realsense-natj-binding" path="moe/natj/bindigs/third_party/realsense" remote="multi-os-engine" revision="master" />
-	<project name="moe-tinyb-natj-binding" path="moe/natj/bindigs/third_party/tinyb" remote="multi-os-engine" revision="master" />
+	<project name="moe-natj" path="moe/natj/natj" />
+	<project name="moe-natjgen" path="moe/tools/moe.generator.natjgen"  />
+	<project name="moe-cinder-natj-binding" path="moe/natj/bindigs/third_party/cinder"  />
+	<project name="moe-realsense-natj-binding" path="moe/natj/bindigs/third_party/realsense"  />
+	<project name="moe-tinyb-natj-binding" path="moe/natj/bindigs/third_party/tinyb"  />
 
 	<!-- Tools /-->
-	<project name="moe-binding-clang" path="moe/tools/moe.binding.clang" remote="multi-os-engine" revision="master"/>
-	<project name="moe-binding-libimobiledevice" path="moe/tools/moe.binding.libimobiledevice" remote="multi-os-engine" revision="master"/>
-	<!-- <project name="moe-build-gradle" path="moe/tools/moe.build.gradle" remote="multi-os-engine" revision="master"/> -->
-	<project name="moe-document-pbxproj" path="moe/tools/moe.document.pbxproj" remote="multi-os-engine" revision="master"/>
-	<project name="moe-document-xib" path="moe/tools/moe.document.xib" remote="multi-os-engine" revision="master" />
-	<project name="moe-generator-project" path="moe/tools/moe.generator.project" remote="multi-os-engine" revision="master" />
-	<project name="moe-ios-device-launcher" path="moe/tools/moe.ios.device.launcher" remote="multi-os-engine" revision="master"/>
-	<project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" remote="multi-os-engine" revision="master"/>
-	<!-- <project name="moe-mac-core" path="moe/tools/moe.mac.core" remote="multi-os-engine" revision="master" /> -->
-	<project name="moe-tools_master" path="moe/tools/master" remote="multi-os-engine" revision="master" />
-	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote" remote="multi-os-engine" revision="master" />
-	<project name="moe-tools-common" path="moe/tools/moe.tools.common" remote="multi-os-engine" revision="master"/>
-	<!-- <project name="moe-executable-builder" path="moe/tools/moe.executable.builder" remote="multi-os-engine" revision="master"/> -->
-	<!-- <project name="moe-ui-transformer" path="moe/tools/moe.ui.transformer" remote="multi-os-engine" revision="master"/> -->
-	<!-- <project name="moe-ui-designer" path="moe/tools/moe.ui.designer" remote="multi-os-engine" revision="master"/> -->
-	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea" remote="multi-os-engine" revision="master" />
-	<project name="moe-core" path="moe/moe-core" remote="multi-os-engine" revision="master"/>
-	<project name="moe-tests" path="moe/test" remote="multi-os-engine" revision="master"/>
-	<project name="moe-plugin-common" path="moe/tools/moe.plugin.common" remote="multi-os-engine" revision="master"/>
-	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" remote="multi-os-engine" revision="master"/>
-	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" remote="multi-os-engine" revision="master"/>
-	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" remote="multi-os-engine" revision="master"/>
-	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" remote="multi-os-engine" revision="master"/>
-	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" remote="multi-os-engine" revision="master"/>
-	<project name="moe_tools_scripts" path="moe/tools/scripts" remote="multi-os-engine" revision="master"/>
+	<project name="moe-binding-clang" path="moe/tools/moe.binding.clang" />
+	<project name="moe-binding-libimobiledevice" path="moe/tools/moe.binding.libimobiledevice" />
+	<!-- <project name="moe-build-gradle" path="moe/tools/moe.build.gradle" /> -->
+	<project name="moe-document-pbxproj" path="moe/tools/moe.document.pbxproj" />
+	<project name="moe-document-xib" path="moe/tools/moe.document.xib"  />
+	<project name="moe-generator-project" path="moe/tools/moe.generator.project"  />
+	<project name="moe-ios-device-launcher" path="moe/tools/moe.ios.device.launcher" />
+	<project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" />
+	<!-- <project name="moe-mac-core" path="moe/tools/moe.mac.core"  /> -->
+	<project name="moe-tools_master" path="moe/tools/master"  />
+	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote"  />
+	<project name="moe-tools-common" path="moe/tools/moe.tools.common" />
+	<!-- <project name="moe-executable-builder" path="moe/tools/moe.executable.builder" /> -->
+	<!-- <project name="moe-ui-transformer" path="moe/tools/moe.ui.transformer" /> -->
+	<!-- <project name="moe-ui-designer" path="moe/tools/moe.ui.designer" /> -->
+	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea"  />
+	<project name="moe-core" path="moe/moe-core" />
+	<project name="moe-tests" path="moe/test" />
+	<project name="moe-plugin-common" path="moe/tools/moe.plugin.common" />
+	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" />
+	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" />
+	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" />
+	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" />
+	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" />
+	<project name="moe_tools_scripts" path="moe/tools/scripts" />
 
 	<!-- Samples /-->
-	<project name="moe-samples-java" path="moe/samples-java" remote="multi-os-engine" revision="master"/>
-	<project name="moe-samples-kotlin" path="moe/samples-kotlin" remote="multi-os-engine" revision="master"/>
+	<project name="moe-samples-java" path="moe/samples-java" />
+	<project name="moe-samples-kotlin" path="moe/samples-kotlin" />
 
 	<!-- Documentation /-->
-	<project name="doc" path="moe/doc" remote="multi-os-engine" revision="master"/>
+	<project name="doc" path="moe/doc" />
 
 </manifest>
