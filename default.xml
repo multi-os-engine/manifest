@@ -70,7 +70,7 @@
 	<project name="moe-document-xib" path="moe/tools/moe.document.xib"  />
 	<project name="moe-generator-project" path="moe/tools/moe.generator.project"  />
 	<project name="moe-ios-device-launcher" path="moe/tools/moe.ios.device.launcher" />
-	<project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" />
+	<!-- <project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" /> -->
 	<!-- <project name="moe-mac-core" path="moe/tools/moe.mac.core"  /> -->
 	<project name="moe-tools_master" path="moe/tools/master"  />
 	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote"  />
