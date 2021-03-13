@@ -2,31 +2,31 @@
 <manifest>
     <remote fetch="." name="multi-os-engine" />
 
-    <default remote="multi-os-engine" revision="moe-master" />
+    <default remote="multi-os-engine" revision="moe-svm" />
 
 	<!--
 		Andoid Open Source projects
 	/-->
-	<project name="art" path="aosp/art" />
-	<project name="platform_bionic" path="aosp/bionic" />
-	<project name="platform_external_apache-http" path="aosp/external/apache-http" />
-	<project name="apache-harmony" path="aosp/external/apache-harmony"  />
-	<project name="bouncycastle" path="aosp/external/bouncycastle" />
-	<project name="conscrypt" path="aosp/external/conscrypt" />
-	<project name="platform_external_expat" path="aosp/external/expat" />
-	<project name="platform_external_fdlibm" path="aosp/external/fdlibm" />
-	<project name="gtest" path="aosp/external/gtest" />
-	<project name="icu" path="aosp/external/icu" />
-	<project name="okhttp" path="aosp/external/okhttp" />
-	<project name="platform_external_openssl" path="aosp/external/openssl" />
-	<project name="vixl" path="aosp/external/vixl" />
-	<project name="platform_external_zlib" path="aosp/external/zlib" />
-	<project name="javasqlite" path="aosp/external/javasqlite" />
-	<project name="frameworks_base_cut" path="aosp/frameworks/base" />
-	<project name="libcore" path="aosp/libcore" />
-	<project name="libnativehelper" path="aosp/libnativehelper" />
-	<project name="platform_system_core" path="aosp/system/core" />
-	<project name="ca-certificates" path="aosp/system/ca-certificates" />
+	<!-- <project name="art" path="aosp/art" /> -->
+	<!-- <project name="platform_bionic" path="aosp/bionic" /> -->
+	<!-- <project name="platform_external_apache-http" path="aosp/external/apache-http" /> -->
+	<!-- <project name="apache-harmony" path="aosp/external/apache-harmony"  /> -->
+	<!-- <project name="bouncycastle" path="aosp/external/bouncycastle" /> -->
+	<!-- <project name="conscrypt" path="aosp/external/conscrypt" /> -->
+	<!-- <project name="platform_external_expat" path="aosp/external/expat" /> -->
+	<!-- <project name="platform_external_fdlibm" path="aosp/external/fdlibm" /> -->
+	<!-- <project name="gtest" path="aosp/external/gtest" /> -->
+	<!-- <project name="icu" path="aosp/external/icu" /> -->
+	<!-- <project name="okhttp" path="aosp/external/okhttp" /> -->
+	<!-- <project name="platform_external_openssl" path="aosp/external/openssl" /> -->
+	<!-- <project name="vixl" path="aosp/external/vixl" /> -->
+	<!-- <project name="platform_external_zlib" path="aosp/external/zlib" /> -->
+	<!-- <project name="javasqlite" path="aosp/external/javasqlite" /> -->
+	<!-- <project name="frameworks_base_cut" path="aosp/frameworks/base" /> -->
+	<!-- <project name="libcore" path="aosp/libcore" /> -->
+	<!-- <project name="libnativehelper" path="aosp/libnativehelper" /> -->
+	<!-- <project name="platform_system_core" path="aosp/system/core" /> -->
+	<!-- <project name="ca-certificates" path="aosp/system/ca-certificates" /> -->
 
 	<!--
 		Third party components
