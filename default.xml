@@ -90,6 +90,7 @@
 	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" />
 	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" />
 	<project name="moe_tools_scripts" path="moe/tools/scripts" />
+	<project name="moe-tools-substrate" path="moe/tools/moe.tools.substrate" />
 
 	<!-- Samples /-->
 	<project name="moe-samples-java" path="moe/samples-java" />
