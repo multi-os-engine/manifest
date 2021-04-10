@@ -29,6 +29,13 @@
 	<!-- <project name="ca-certificates" path="aosp/system/ca-certificates" /> -->
 
 	<!--
+		GraalVM projects
+	/-->
+	<project name="mx" path="svm/mx" />
+	<project name="graal" path="svm/graal" />
+	<project name="labs-openjdk-11" path="svm/labs-openjdk-11" />
+
+	<!--
 		Third party components
 	/-->
 	<!-- libimobiledevice /-->
