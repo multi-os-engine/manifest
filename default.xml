@@ -45,7 +45,7 @@
 	<project name="llvm-project" path="external/llvm" />
 
 	<!-- Retrolambda /-->
-	<project name="retrolambda" path="external/retrolambda" />
+	<!-- <project name="retrolambda" path="external/retrolambda" /> -->
 
 	<!-- Proguard /-->
 	<project name="proguard-core" path="external/proguard/proguard-core" />
