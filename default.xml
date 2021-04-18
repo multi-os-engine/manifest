@@ -54,7 +54,7 @@
 	<project name="clang-tools-extra" path="external/llvm/tools/clang/tools/extra" />
 
 	<!-- Retrolambda /-->
-	<project name="retrolambda" path="external/retrolambda" />
+	<!-- <project name="retrolambda" path="external/retrolambda" /> -->
 
 	<!-- Proguard /-->
 	<project name="proguard" path="external/proguard" />
