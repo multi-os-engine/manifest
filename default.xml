@@ -98,6 +98,7 @@
 	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" />
 	<project name="moe_tools_scripts" path="moe/tools/scripts" />
 	<project name="moe-tools-substrate" path="moe/tools/moe.tools.substrate" />
+	<project name="moe-tools-classvalidator" path="moe/tools/moe.tools.classvalidator" />
 
 	<!-- Samples /-->
 	<project name="moe-samples-java" path="moe/samples-java" />
