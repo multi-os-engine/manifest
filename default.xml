@@ -59,6 +59,9 @@
 	<!-- Proguard /-->
 	<project name="proguard" path="external/proguard" />
 
+	<!-- javasqlite /-->
+	<project name="javasqlite" path="external/javasqlite" />
+
 	<!--
 		Multi-OS Engine components
 	/-->
