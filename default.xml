@@ -42,9 +42,7 @@
 	<project name="libffi" path="external/libffi" />
 
 	<!-- llvm /-->
-	<project name="llvm" path="external/llvm"  />
-	<project name="clang" path="external/llvm/tools/clang" />
-	<project name="clang-tools-extra" path="external/llvm/tools/clang/tools/extra" />
+	<project name="llvm-project" path="external/llvm" />
 
 	<!-- Retrolambda /-->
 	<project name="retrolambda" path="external/retrolambda" />
