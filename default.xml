@@ -48,7 +48,8 @@
 	<project name="retrolambda" path="external/retrolambda" />
 
 	<!-- Proguard /-->
-	<project name="proguard" path="external/proguard" />
+	<project name="proguard-core" path="external/proguard/proguard-core" />
+	<project name="proguard" path="external/proguard/proguard" revision="moe-proguard-7" />
 
 	<!--
 		Multi-OS Engine components
@@ -72,7 +73,7 @@
 	<project name="moe-ios-device-launcher" path="moe/tools/moe.ios.device.launcher" />
 	<!-- <project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" /> -->
 	<!-- <project name="moe-mac-core" path="moe/tools/moe.mac.core"  /> -->
-	<project name="moe-tools_master" path="moe/tools/master"  />
+	<project name="moe-tools_master" path="moe/tools/master" revision="moe-proguard-7" />
 	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote"  />
 	<project name="moe-tools-common" path="moe/tools/moe.tools.common" />
 	<!-- <project name="moe-executable-builder" path="moe/tools/moe.executable.builder" /> -->
@@ -85,7 +86,7 @@
 	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" />
 	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" />
 	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" />
-	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" />
+	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" revision="moe-proguard-7" />
 	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" />
 	<project name="moe_tools_scripts" path="moe/tools/scripts" />
 	<project name="moe-tools-classvalidator" path="moe/tools/moe.tools.classvalidator" />
