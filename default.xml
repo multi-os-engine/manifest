@@ -80,7 +80,7 @@
 	<!-- <project name="moe-ui-transformer" path="moe/tools/moe.ui.transformer" /> -->
 	<!-- <project name="moe-ui-designer" path="moe/tools/moe.ui.designer" /> -->
 	<project name="moe-ide-integration" path="moe/tools/moe.plugin.idea"  />
-	<project name="moe-core" path="moe/moe-core" />
+	<project name="moe-core" path="moe/moe-core" revision="moe-proguard-7" />
 	<project name="moe-tests" path="moe/test" />
 	<project name="moe-plugin-common" path="moe/tools/moe.plugin.common" />
 	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" />
