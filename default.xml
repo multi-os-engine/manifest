@@ -23,7 +23,7 @@
 	<project name="platform_external_zlib" path="aosp/external/zlib" />
 	<project name="javasqlite" path="aosp/external/javasqlite" />
 	<project name="frameworks_base_cut" path="aosp/frameworks/base" />
-	<project name="libcore" path="aosp/libcore" />
+	<project name="libcore" path="aosp/libcore" revision="moe-proguard-7" />
 	<project name="libnativehelper" path="aosp/libnativehelper" />
 	<project name="platform_system_core" path="aosp/system/core" />
 	<project name="ca-certificates" path="aosp/system/ca-certificates" />
