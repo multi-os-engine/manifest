@@ -55,7 +55,8 @@
 	<!-- <project name="retrolambda" path="external/retrolambda" /> -->
 
 	<!-- Proguard /-->
-	<project name="proguard" path="external/proguard" />
+	<project name="proguard-core" path="external/proguard/proguard-core" />
+	<project name="proguard" path="external/proguard/proguard" />
 
 	<!-- javasqlite /-->
 	<project name="javasqlite" path="external/javasqlite" />
@@ -82,7 +83,7 @@
 	<project name="moe-ios-device-launcher" path="moe/tools/moe.ios.device.launcher" />
 	<!-- <project name="moe-ios-simulator-launcher" path="moe/tools/moe.ios.simulator.launcher" /> -->
 	<!-- <project name="moe-mac-core" path="moe/tools/moe.mac.core"  /> -->
-	<project name="moe-tools_master" path="moe/tools/master"  />
+	<project name="moe-tools_master" path="moe/tools/master" />
 	<project name="moe-protocol-gdbremote" path="moe/tools/moe.protocol.gdbremote"  />
 	<project name="moe-tools-common" path="moe/tools/moe.tools.common" />
 	<!-- <project name="moe-executable-builder" path="moe/tools/moe.executable.builder" /> -->
