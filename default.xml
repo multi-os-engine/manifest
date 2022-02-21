@@ -2,7 +2,7 @@
 <manifest>
     <remote fetch="." name="multi-os-engine" />
 
-    <default remote="multi-os-engine" revision="moe-master" />
+    <default remote="multi-os-engine" revision="refs/tags/moe-gradle-1.9.0" />
 
 	<!--
 		Andoid Open Source projects
