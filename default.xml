@@ -2,7 +2,7 @@
 <manifest>
     <remote fetch="." name="multi-os-engine" />
 
-    <default remote="multi-os-engine" revision="refs/tags/moe-idea-1.5.0" />
+    <default remote="multi-os-engine" revision="refs/tags/moe-idea-1.5.1" />
 
 	<!--
 		Andoid Open Source projects
