@@ -47,9 +47,8 @@
 	<!-- Retrolambda /-->
 	<!-- <project name="retrolambda" path="external/retrolambda" /> -->
 
-	<!-- Proguard /-->
-	<project name="proguard-core" path="external/proguard/proguard-core" />
-	<project name="proguard" path="external/proguard/proguard" />
+	<!-- r8 /-->
+	<project name="r8" path="external/r8" />
 
 	<!--
 		Multi-OS Engine components
