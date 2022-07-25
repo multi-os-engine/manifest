@@ -84,7 +84,7 @@
 	<project name="moe-tests" path="moe/test" />
 	<project name="moe-plugin-common" path="moe/tools/moe.plugin.common" />
 	<project name="moe-plugin-gradle" path="moe/tools/moe.plugin.gradle" />
-	<project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" />
+	<!-- <project name="moe-plugin-maven" path="moe/tools/moe.plugin.maven" /> -->
 	<project name="moe-ide-integration-eclipse" path="moe/tools/moe.plugin.eclipse" />
 	<project name="moe-sdk-publisher" path="moe/tools/moe.sdk.publisher" />
 	<project name="moe-tools-natjgen" path="moe/tools/moe.tools.natjgen" />
