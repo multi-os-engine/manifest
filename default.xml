@@ -55,8 +55,8 @@
 	<!-- <project name="retrolambda" path="external/retrolambda" /> -->
 
 	<!-- Proguard /-->
-	<project name="proguard-core" path="external/proguard/proguard-core" />
-	<project name="proguard" path="external/proguard/proguard" />
+	<!-- project name="proguard-core" path="external/proguard/proguard-core" /-->
+	<!-- project name="proguard" path="external/proguard/proguard" /-->
 
 	<!-- javasqlite /-->
 	<project name="javasqlite" path="external/javasqlite" />
