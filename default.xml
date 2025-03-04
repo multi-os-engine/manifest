@@ -64,6 +64,6 @@
 	<!--
 		Multi-OS Engine
 	/-->
-	<project name="multi-os-engine" path="." />
+	<project name="multi-os-engine" path="moe/" />
 
 </manifest>
