@@ -5,58 +5,17 @@
     <default remote="multi-os-engine" revision="moe-svm" />
 
 	<!--
-		Andoid Open Source projects
-	/-->
-	<!-- <project name="art" path="aosp/art" /> -->
-	<!-- <project name="platform_bionic" path="aosp/bionic" /> -->
-	<!-- <project name="platform_external_apache-http" path="aosp/external/apache-http" /> -->
-	<!-- <project name="apache-harmony" path="aosp/external/apache-harmony"  /> -->
-	<!-- <project name="bouncycastle" path="aosp/external/bouncycastle" /> -->
-	<!-- <project name="conscrypt" path="aosp/external/conscrypt" /> -->
-	<!-- <project name="platform_external_expat" path="aosp/external/expat" /> -->
-	<!-- <project name="platform_external_fdlibm" path="aosp/external/fdlibm" /> -->
-	<!-- <project name="gtest" path="aosp/external/gtest" /> -->
-	<!-- <project name="icu" path="aosp/external/icu" /> -->
-	<!-- <project name="okhttp" path="aosp/external/okhttp" /> -->
-	<!-- <project name="platform_external_openssl" path="aosp/external/openssl" /> -->
-	<!-- <project name="vixl" path="aosp/external/vixl" /> -->
-	<!-- <project name="platform_external_zlib" path="aosp/external/zlib" /> -->
-	<!-- <project name="javasqlite" path="aosp/external/javasqlite" /> -->
-	<!-- <project name="frameworks_base_cut" path="aosp/frameworks/base" /> -->
-	<!-- <project name="libcore" path="aosp/libcore" /> -->
-	<!-- <project name="libnativehelper" path="aosp/libnativehelper" /> -->
-	<!-- <project name="platform_system_core" path="aosp/system/core" /> -->
-	<!-- <project name="ca-certificates" path="aosp/system/ca-certificates" /> -->
-
-	<!--
 		GraalVM projects
 	/-->
 	<project name="mx" path="svm/mx" />
-	<project name="graal" path="svm/graal" revision="moe-svm-23.0"/>
-	<project name="labs-openjdk-21" path="svm/labs-openjdk-21" />
-
-	<!--
-		Third party components
-	/-->
-	<!-- libimobiledevice /-->
-	<project name="libimobiledevice" path="external/libimobiledevice/libimobiledevice"  />
-	<project name="libplist" path="external/libimobiledevice/libplist" />
-	<project name="libusbmuxd" path="external/libimobiledevice/libusbmuxd" />
-	<project name="libxml2" path="external/libimobiledevice/libxml2" />
-	<project name="openssl" path="external/libimobiledevice/openssl" />
+	<project name="graal" path="svm/graal" revision="moe-svm-25.0.1"/>
+	<project name="labs-openjdk-21" path="svm/labs-openjdk-21" revision="moe-svm-25.1-b08" />
 
 	<!-- libffi /-->
 	<project name="libffi" path="external/libffi" />
 
 	<!-- llvm /-->
 	<project name="llvm-project" path="external/llvm" />
-
-	<!-- Retrolambda /-->
-	<!-- <project name="retrolambda" path="external/retrolambda" /> -->
-
-	<!-- Proguard /-->
-	<!-- project name="proguard-core" path="external/proguard/proguard-core" /-->
-	<!-- project name="proguard" path="external/proguard/proguard" /-->
 
 	<!-- javasqlite /-->
 	<project name="javasqlite" path="external/javasqlite" />
