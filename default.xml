@@ -9,7 +9,7 @@
 	/-->
 	<project name="mx" path="svm/mx" />
 	<project name="graal" path="svm/graal" revision="moe-svm-25.0.1"/>
-	<project name="labs-openjdk-21" path="svm/labs-openjdk-21" revision="moe-svm-25.1-b08" />
+	<project name="labs-openjdk" path="svm/labs-openjdk" revision="moe-svm-25.1-b08" />
 
 	<!-- libffi /-->
 	<project name="libffi" path="external/libffi" />
