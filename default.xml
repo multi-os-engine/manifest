@@ -20,6 +20,8 @@
 	<!-- javasqlite /-->
 	<project name="javasqlite" path="external/javasqlite" />
 
+	<!-- javapymobiledevice3 /-->
+	<project name="javapymobiledevice3" path="external/javapymobiledevice3" />
 	<!--
 		Multi-OS Engine
 	/-->
