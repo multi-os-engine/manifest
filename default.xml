@@ -21,7 +21,9 @@
 	<project name="javasqlite" path="external/javasqlite" />
 
 	<!-- javapymobiledevice3 /-->
+	<project name="ipcpymobiledevice3" path="external/ipcpymobiledevice3" revision="master" />
 	<project name="javapymobiledevice3" path="external/javapymobiledevice3" />
+	
 	<!--
 		Multi-OS Engine
 	/-->
